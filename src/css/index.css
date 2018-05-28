@@ -1,0 +1,9 @@
+body{
+    background-color: gray;
+    color: #fff;
+}
+#photo{
+    width: 238px;
+    height: 202px;
+    background-image: url(../images/test.png);
+}
