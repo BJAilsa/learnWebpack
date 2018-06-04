@@ -26,6 +26,12 @@ module.exports = {
                         limit: 500000
                     }
                 }]
+            },{
+                test: /\.js$/,
+                use: [{
+                    loader: 'babel-loader'
+                }],
+                exclude: /node_modules/
             }
         ]
     },
